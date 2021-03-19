@@ -23,7 +23,7 @@ client.once('ready', async () => {
 	});
 
 	// confirmation that startup processes have completed successfully and the bot is running
-	console.log('Banana!');
+	console.log('Ready!');
 });
 
 // use token (saved in .env) to log in to Discord
