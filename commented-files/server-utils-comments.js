@@ -1,3 +1,4 @@
+// import superagent module to be used as 'request'
 const request = require('superagent');
 
 /* replace this address with the URL where the bot will direct its request - do not include a final/trailing slash */
@@ -10,4 +11,5 @@ async function getAllResponses() {
 	return response.body;
 }
 
+// make this function available for import throughout the project
 module.exports = { getAllResponses };
